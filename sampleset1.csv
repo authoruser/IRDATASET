@@ -41,22 +41,3 @@ close_code,Phishing_Resolved
 resolved_by,user_149
 resolved_at,29/02/2016 11:29
 closed_at,05/03/2016 12:00
-
-Field,Value
-number,INC0000047
-incident_state,Closed
-active,FALSE
-reassignment_count,0
-reopen_count,0
-sys_mod_count,8
-made_sla,TRUE
-caller_id,Caller 2403
-opened_by,user_123
-opened_at,29/02/2016 04:40
-sys_created_by,user_123
-sys_created_at,29/02/2016 04:57
-sys_updated_by,user_890
-sys_updated_at,06/03/2016 10:00
-contact_type,Phone
-category,Security
-subcategory,Brute-Force Atta
