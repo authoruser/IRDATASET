@@ -27,7 +27,7 @@ Case ID,CASE001
 Case Title,Phishing Attack Detected
 Creation Date,29/02/2016 01:16
 Description,Suspicious email detected requiring immediate attention
-Case Tasks: "[{\"Case Tasks Title\": \"Email Filtering\", \"Case Task Start Date\": \"29/02/2016 01:30\", \"Case Task Assignee\": \"user_789\", \"Case Task Status\": \"Completed\", \"Case Task Duration\": \"30 minutes\", \"Case Attribute Data\": \"{ 'email': 'suspicious@example.com', 'reason': 'unknown sender' }\"}, {\"Case Tasks Title\": \"Quarantine Email\", \"Case Task Start Date\": \"29/02/2016 01:40\", \"Case Task Assignee\": \"user_789\", \"Case Task Status\": \"Completed\", \"Case Task Duration\": \"20 minutes\", \"Case Attribute Data\": \"{ 'email_id': '12345', 'status': 'quarantined' }\"}, ... ]"
+Case Tasks, "[{\"Case Tasks Title\": \"Email Filtering\", \"Case Task Start Date\": \"29/02/2016 01:30\", \"Case Task Assignee\": \"user_789\", \"Case Task Status\": \"Completed\", \"Case Task Duration\": \"30 minutes\", \"Case Attribute Data\": \"{ 'email': 'suspicious@example.com', 'reason': 'unknown sender' }\"}, {\"Case Tasks Title\": \"Quarantine Email\", \"Case Task Start Date\": \"29/02/2016 01:40\", \"Case Task Assignee\": \"user_789\", \"Case Task Status\": \"Completed\", \"Case Task Duration\": \"20 minutes\", \"Case Attribute Data\": \"{ 'email_id': '12345', 'status': 'quarantined' }\"}, ... ]"
 Chat Sentiment Determination, Urgency
 Event ID,101
 Distribution,Organization only
