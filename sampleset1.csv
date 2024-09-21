@@ -37,7 +37,7 @@ Event ID,101,104
 Distribution,Organization only,Organization only
 Event Information,Phishing attempt detected,Brute-force attack detected
 Threat Level,High,High
-Event Attributes,"{ 'email_subject': 'Urgent Request', 'email_sender': 'unknown@example.com' }","{ 'login_attempts': '100', 'failed_attempts': '98' }"
+Event Attributes,"{ ""email_subject"": ""Urgent Request"", ""email_sender"": ""unknown@example.com"" }","{ ""login_attempts"": ""100"", ""failed_attempts"": ""98"" }"
 close_code,Phishing_Resolved,Bruteforce_Resolved
 resolved_by,user_149,user_890
 resolved_at,29/02/2016 11:29,01/03/2016 09:52
