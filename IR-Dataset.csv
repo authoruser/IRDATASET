@@ -87,3 +87,33 @@ close_code,Bruteforce_Resolved
 resolved_by,user_890
 resolved_at,01/03/2016 09:52
 closed_at,06/03/2016 10:00
+
+Field,Value
+number,INC0000057
+incident_state,Closed
+active,FALSE
+reassignment_count,0
+reopen_count,0
+sys_mod_count,6
+made_sla,TRUE
+caller_id,Caller 4416
+opened_by,user_008
+opened_at,29/02/2016 06:10
+sys_created_by,user_008
+sys_created_at,29/02/2016 06:10
+sys_updated_by,user_908
+sys_updated_at,06/03/2016 03:00
+contact_type,Phone
+category,Network
+subcategory,DDoS Attack
+u_symptom,Unusually high traffic detected
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_006
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001226
+Case ID,CASE004
+Case Title,DDoS Attack Detected
+Creation Date,29/02/2016 06:10
