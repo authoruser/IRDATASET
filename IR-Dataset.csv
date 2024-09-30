@@ -451,3 +451,49 @@ close_code,Unauthorized_Access_Resolved
 resolved_by,user_215
 resolved_at,02/03/2016 11:11
 closed_at,07/03/2016 12:00
+
+Field,Value
+number,INC0000070
+incident_state,Closed
+active,FALSE
+reassignment_count,1
+reopen_count,0
+sys_mod_count,9
+made_sla,TRUE
+caller_id,Caller 3757
+opened_by,user_131
+opened_at,29/02/2016 08:11
+sys_created_by,user_062
+sys_created_at,29/02/2016 08:38
+sys_updated_by,user_908
+sys_updated_at,24/03/2016 18:40
+contact_type,Phone
+category,Cybersecurity
+subcategory,Malware Infection
+u_symptom,User reported unexpected system behavior and pop-up alerts.
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_031
+resolver,user_030
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001238
+Case ID,CASE013
+Case Title,Malware Infection Detected
+Creation Date,29/02/2016 08:11
+Description,User reported signs of malware infection affecting system performance.
+Case Tasks,"[{""Case Tasks Title"": ""Initial Malware Scan"", ""Case Task Start Date"": ""29/02/2016 08:30"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'scan_result': 'Malware detected.' }""}, {""Case Tasks Title"": ""Isolate Infected Device"", ""Case Task Start Date"": ""29/02/2016 09:30"", ""Case Task Assignee"": ""user_031"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'device_isolated': 'User device isolated from network.' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 10:00"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""15 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'User informed about the infection and next steps.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""Malware Detection Analysis"", ""Analysis ID"": ""malware-2016-012"", ""Timestamp"": ""2016-02-29 09:00:00 UTC"", ""Data Value"": ""Malware signature detected in system files."", ""Details"": ""User's device was running unverified software."", ""Status"": ""Completed""}]"
+Chat Log,"User_131 [08:11 AM]: ""We've got a report of unusual behavior on the user's system. Let’s scan it for malware."" User_030 [08:15 AM]: ""Running a full system scan. I'll check for any malicious signatures."" User_131 [09:00 AM]: ""Scan completed. Malware detected. We need to isolate the device immediately."" User_030 [09:30 AM]: ""Device isolated from the network. Preparing for user notification."" User_131 [10:00 AM]: ""Inform the user about the infection and provide them with next steps."""
+Chat Keywords,"[""malware infection"", ""system scan"", ""user notification"", ""device isolation"", ""security incident""]"
+Chat Sentiment Determination,Urgency
+Event ID,149
+Distribution,Organization only
+Event Information,Malware infection detected and resolved
+Threat Level,Medium
+Event Attributes,"{ 'issue_type': 'malware infection', 'affected_users': 'user_3757' }"
+close_code,Malware_Resolved
+resolved_by,user_031
+resolved_at,08/03/2016 09:55
+closed_at,24/03/2016 18:40
