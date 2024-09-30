@@ -131,3 +131,48 @@ close_code,DDoS_Resolved
 resolved_by,user_006
 resolved_at,01/03/2016 02:55
 closed_at,06/03/2016 03:00
+
+Field,Value
+number,INC0000060
+incident_state,Closed
+active,FALSE
+reassignment_count,0
+reopen_count,0
+sys_mod_count,3
+made_sla,TRUE
+caller_id,Caller 4491
+opened_by,user_180
+opened_at,29/02/2016 06:38
+sys_created_by,user_081
+sys_created_at,29/02/2016 06:42
+sys_updated_by,user_908
+sys_updated_at,07/03/2016 13:00
+contact_type,Phone
+category,Malware
+subcategory,Infection
+u_symptom,Detected malware on the system
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_125
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001227
+Case ID,CASE005
+Case Title,Malware Infection Detected
+Creation Date,29/02/2016 06:38
+Description,Malware detected on the endpoint system; immediate action required.
+Case Tasks,"[{""Case Tasks Title"": ""Malware Scan"", ""Case Task Start Date"": ""29/02/2016 06:50"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'malware_detected': 'Trojan', 'files_infected': '10' }""}, {""Case Tasks Title"": ""Quarantine Infected Files"", ""Case Task Start Date"": ""29/02/2016 07:55"", ""Case Task Assignee"": ""user_125"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'quarantined_files': '5' }""}, {""Case Tasks Title"": ""System Cleanup"", ""Case Task Start Date"": ""29/02/2016 08:30"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'cleanup_success': 'true' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 09:30"", ""Case Task Assignee"": ""user_125"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""20 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'user informed of malware detected' }""}, {""Case Tasks Title"": ""Incident Report"", ""Case Task Start Date"": ""29/02/2016 10:00"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""45 minutes"", ""Case Attribute Data"": ""{ 'report_summary': 'Malware infection resolved through detection and cleanup.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""File Hash"", ""Analysis ID"": ""hash-2016-003"", ""Timestamp"": ""2016-02-29 07:00:00 UTC"", ""Data Value"": ""File Hash: abc123xyz"", ""Details"": ""File identified as malware in threat intelligence databases."", ""Status"": ""Success""}]"
+Chat Log,"User_180 [06:38 AM]: ""Malware detected on endpoint. Initiating immediate response measures."" User_125 [06:45 AM]: ""Starting a full malware scan on the system."" User_180 [07:00 AM]: ""Malware scan complete. Found Trojan and several infected files."" User_125 [07:30 AM]: ""Quarantining infected files. Preparing for cleanup."" User_180 [08:30 AM]: ""System cleanup completed successfully. User has been notified."" User_180 [09:00 AM]: ""Drafting the incident report summarizing the steps taken.""
+Chat Keywords,"[""malware"", ""infection detection"", ""malware scan"", ""file quarantine"", ""system cleanup"", ""user notification"", ""incident reporting""]"
+Chat Sentiment Determination,Confidence
+Event ID,120
+Distribution,Organization only
+Event Information,Malware infection detected
+Threat Level,High
+Event Attributes,"{ 'malware_detected': 'Trojan', 'files_infected': '10' }"
+close_code,Malware_Resolved
+resolved_by,user_113
+resolved_at,02/03/2016 12:06
+closed_at,07/03/2016 13:00
