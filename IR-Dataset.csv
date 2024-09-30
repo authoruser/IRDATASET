@@ -313,3 +313,48 @@ resolved_by,user_071
 resolved_at,03/03/2016 16:00
 closed_at,08/03/2016 17:00
 
+Field,Value
+number,INC0000065
+incident_state,Closed
+active,FALSE
+reassignment_count,6
+reopen_count,0
+sys_mod_count,13
+made_sla,TRUE
+caller_id,Caller 5323
+opened_by,user_131
+opened_at,29/02/2016 07:38
+sys_created_by,user_062
+sys_created_at,29/02/2016 07:46
+sys_updated_by,user_908
+sys_updated_at,07/03/2016 16:00
+contact_type,Phone
+category,Network Incident
+subcategory,Network Outage
+u_symptom,User reports loss of internet connectivity
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_33
+resolver,user_216
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001235
+Case ID,CASE010
+Case Title,Network Connectivity Issues Reported
+Creation Date,29/02/2016 07:38
+Description,User reported loss of internet connectivity across multiple devices.
+Case Tasks,"[{""Case Tasks Title"": ""Initial Investigation"", ""Case Task Start Date"": ""29/02/2016 08:00"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'investigation_result': 'Router rebooted.' }""}, {""Case Tasks Title"": ""Network Monitoring"", ""Case Task Start Date"": ""29/02/2016 09:15"", ""Case Task Assignee"": ""user_216"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""2 hours"", ""Case Attribute Data"": ""{ 'monitoring_result': 'Network stable after reboot.' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 11:30"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""15 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'Users informed of restored connectivity.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""Network Log Analysis"", ""Analysis ID"": ""log-2016-005"", ""Timestamp"": ""2016-02-29 08:30:00 UTC"", ""Data Value"": ""Traffic spikes detected before outage."", ""Details"": ""Router logs indicate potential DDoS attack."", ""Status"": ""Completed""}]"
+Chat Log,"User_131 [07:38 AM]: ""User reports loss of internet connectivity."" User_216 [08:30 AM]: ""Investigating router logs now."" User_131 [11:00 AM]: ""Connectivity restored; users notified."""
+Chat Keywords,"[""network outage"", ""connectivity issues"", ""router reboot"", ""user notification"", ""incident resolution""]"
+Chat Sentiment Determination,Urgency
+Event ID,146
+Distribution,Organization only
+Event Information,Network outage reported and resolved
+Threat Level,Medium
+Event Attributes,"{ 'issue_type': 'network outage', 'affected_systems': 'all workstations' }"
+close_code,Network_Outage_Resolved
+resolved_by,user_197
+resolved_at,02/03/2016 15:21
+closed_at,07/03/2016 16:00
