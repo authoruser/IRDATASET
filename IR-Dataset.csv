@@ -42,3 +42,48 @@ close_code,Phishing_Resolved
 resolved_by,user_149
 resolved_at,29/02/2016 11:29
 closed_at,05/03/2016 12:00
+
+Field,Value
+number,INC0000047
+incident_state,Closed
+active,FALSE
+reassignment_count,0
+reopen_count,0
+sys_mod_count,8
+made_sla,TRUE
+caller_id,Caller 2403
+opened_by,user_123
+opened_at,29/02/2016 04:40
+sys_created_by,user_123
+sys_created_at,29/02/2016 04:57
+sys_updated_by,user_890
+sys_updated_at,06/03/2016 10:00
+contact_type,Phone
+category,Security
+subcategory,Brute-Force Attack
+u_symptom,Multiple failed login attempts detected
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_890
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001225
+Case ID,CASE003
+Case Title,Brute-Force Attack Detected
+Creation Date,29/02/2016 04:40
+Description,Multiple failed login attempts detected
+Case Tasks,"[{""Case Tasks Title"": ""Login Attempt Analysis"", ""Case Task Start Date"": ""29/02/2016 05:00"", ""Case Task Assignee"": ""user_123"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'login_attempts': '100', 'failed_attempts': '98' }""}, {""Case Tasks Title"": ""Account Lockout"", ""Case Task Start Date"": ""29/02/2016 06:00"", ""Case Task Assignee"": ""user_890"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'accounts_locked': '50' }""}, {""Case Tasks Title"": ""IP Blocking"", ""Case Task Start Date"": ""29/02/2016 06:30"", ""Case Task Assignee"": ""user_123"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'blocked_ips': '192.0.2.2, 203.0.113.6' }""}, {""Case Tasks Title"": ""Notify Users"", ""Case Task Start Date"": ""29/02/2016 07:00"", ""Case Task Assignee"": ""user_890"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""20 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'users informed' }""}, {""Case Tasks Title"": ""Incident Report"", ""Case Task Start Date"": ""29/02/2016 07:30"", ""Case Task Assignee"": ""user_123"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""45 minutes"", ""Case Attribute Data"": ""{ 'report_summary': 'Brute-force attack mitigated.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""IP Address"", ""Analysis ID"": ""ip-2016-016"", ""Timestamp"": ""2016-02-29 06:00:00 UTC"", ""Data Value"": ""IP Address: 192.0.2.2"", ""Details"": ""IP listed in threat feeds as source of multiple failed login attempts"", ""Status"": ""Success""}]"
+Chat Log,"User_123 [04:40 AM]: ""Multiple failed login attempts have been detected. Starting the analysis of failed login attempts. Initial findings indicate a high volume of failed attempts."" User_890 [04:45 AM]: ""Initiated the account lockout process for affected accounts. We'll start IP blocking next."" User_123 [05:00 AM]: ""IP blocking is underway. Monitoring blocked IPs for any further suspicious activity."" User_890 [06:00 AM]: ""Users have been notified of the incident and security measures taken."" User_890 [07:00 AM]: ""Drafting the incident report summarizing the steps taken and resolution."""
+Chat Keywords,"[""brute-force"", ""login attempts"", ""account lockout"", ""IP blocking"", ""user notifications"", ""incident reporting""]"
+Chat Sentiment Determination,Confidence
+Event ID,104
+Distribution,Organization only
+Event Information,Brute-force attack detected
+Threat Level,High
+Event Attributes,"{ 'login_attempts': '100', 'failed_attempts': '98' }"
+close_code,Bruteforce_Resolved
+resolved_by,user_890
+resolved_at,01/03/2016 09:52
+closed_at,06/03/2016 10:00
