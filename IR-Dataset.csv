@@ -394,3 +394,14 @@ Case Tasks,"[{""Case Tasks Title"": ""Initial Diagnosis"", ""Case Task Start Dat
 Observables Analysis,"[{""Analysis Type"": ""Application Log Analysis"", ""Analysis ID"": ""log-2016-006"", ""Timestamp"": ""2016-02-29 08:45:00 UTC"", ""Data Value"": ""Application crash logs indicate missing dependencies."", ""Details"": ""Root cause identified as missing library files."", ""Status"": ""Completed""}]"
 Chat Log,"User_024 [08:03 AM]: ""User reports application crash. We need to prioritize this!"" User_208 [08:30 AM]: ""Looking at the logs now. I’m confident we can resolve this quickly."" User_024 [09:00 AM]: ""Any updates?"" User_208 [09:05 AM]: ""I see the issue; deploying a patch shortly.""
 User_024 [10:00 AM]: ""Great! Keep me posted."" User_208 [10:15 AM]: ""Patch deployed. I’ll notify the user now."" User_024 [10:30 AM]: ""Thanks for the quick turnaround!"""
+Chat Keywords,"[""application crash"", ""log analysis"", ""issue resolution"", ""patch deployment"", ""user notification""]"
+Chat Sentiment Determination,Optimism
+Event ID,147
+Distribution,Organization only
+Event Information,Application crash reported and resolved
+Threat Level,Medium
+Event Attributes,"{ 'issue_type': 'application error', 'affected_systems': 'user application' }"
+close_code,Application_Error_Resolved
+resolved_by,user_208
+resolved_at,02/03/2016 14:37
+closed_at,07/03/2016 15:00
