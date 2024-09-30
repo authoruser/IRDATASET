@@ -532,4 +532,14 @@ Description,User reported potential unauthorized access to data on their account
 Case Tasks,"[{""Case Tasks Title"": ""Initial Investigation"", ""Case Task Start Date"": ""29/02/2016 09:00"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'investigation_result': 'Unauthorized access confirmed.' }""}, {""Case Tasks Title"": ""Notify User of Breach"", ""Case Task Start Date"": ""29/02/2016 10:30"", ""Case Task Assignee"": ""user_227"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'User notified about the data breach.' }""}, {""Case Tasks Title"": ""Secure User Account"", ""Case Task Start Date"": ""01/03/2016 08:00"", ""Case Task Assignee"": ""user_249"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""45 minutes"", ""Case Attribute Data"": ""{ 'account_secured': 'User account reset and secured.' }""}]"
 Observables Analysis,"[{""Analysis Type"": ""Data Access Logs Analysis"", ""Analysis ID"": ""access-2016-010"", ""Timestamp"": ""2016-02-29 09:15:00 UTC"", ""Data Value"": ""Unauthorized access detected in logs."", ""Details"": ""Access made from an unrecognized IP address."", ""Status"": ""Completed""}]"
 Chat Log,"User_180 [08:12 AM]: ""We've received a report of unauthorized access. Let's investigate the account."" User_227 [08:15 AM]: ""Checking access logs now. We need to confirm if there was a breach."" User_180 [09:00 AM]: ""Breach confirmed. User needs to be notified immediately."" User_227 [10:00 AM]: ""Notified the user about the breach and the steps taken."" User_249 [01/03/2016 08:00 AM]: ""Secured the user's account and reset their password."""
-
+Chat Keywords,"[""data breach"", ""unauthorized access"", ""user notification"", ""account security"", ""investigation""]" 
+Chat Sentiment Determination,Frustration
+Event ID,150
+Distribution,Organization only
+Event Information,Data breach incident detected and resolved
+Threat Level,Medium
+Event Attributes,"{ 'issue_type': 'data breach', 'affected_users': 'user_271' }"
+close_code,Data_Breach_Resolved
+resolved_by,user_227
+resolved_at,01/03/2016 10:38
+closed_at,06/03/2016 11:00
