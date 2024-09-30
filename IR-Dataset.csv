@@ -267,4 +267,49 @@ resolved_by,user_62
 resolved_at,29/02/2016 16:01
 closed_at,05/03/2016 17:00
 
+Field,Value
+number,INC0000064
+incident_state,Closed
+active,FALSE
+reassignment_count,1
+reopen_count,0
+sys_mod_count,8
+made_sla,TRUE
+caller_id,Caller 2838
+opened_by,user_131
+opened_at,29/02/2016 07:10
+sys_created_by,user_062
+sys_created_at,29/02/2016 07:14
+sys_updated_by,user_908
+sys_updated_at,08/03/2016 17:00
+contact_type,Phone
+category,Malware Incident
+subcategory,Malware Infection
+u_symptom,User reports suspicious activity and slow performance
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_28
+resolver,user_078
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001234
+Case ID,CASE009
+Case Title,Suspicious Malware Activity Detected
+Creation Date,29/02/2016 07:10
+Description,User reported unusual system behavior; suspected malware infection.
+Case Tasks,"[{""Case Tasks Title"": ""Initial Analysis"", ""Case Task Start Date"": ""29/02/2016 07:20"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'initial_analysis': 'Scanning for malware.' }""}, {""Case Tasks Title"": ""Malware Removal"", ""Case Task Start Date"": ""29/02/2016 08:30"", ""Case Task Assignee"": ""user_078"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'removal_tools_used': 'Antivirus software.' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 09:45"", ""Case Task Assignee"": ""user_131"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""15 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'User informed about malware removal.' }""}, {""Case Tasks Title"": ""Post-Incident Review"", ""Case Task Start Date"": ""29/02/2016 10:30"", ""Case Task Assignee"": ""user_078"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'review_summary': 'Malware removed; system cleaned.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""Malware Scan"", ""Analysis ID"": ""scan-2016-004"", ""Timestamp"": ""2016-02-29 08:00:00 UTC"", ""Data Value"": ""Malware detected and quarantined."", ""Details"": ""Suspicious files identified and removed."", ""Status"": ""Completed""}]"
+Chat Log,"User_131 [07:10 AM]: ""User reports suspicious activity; scanning now."" User_078 [08:00 AM]: ""Malware detected and quarantined."" User_131 [09:00 AM]: ""User notified; system is secure now."""
+Chat Keywords,"[""malware infection"", ""suspicious activity"", ""malware removal"", ""user notification"", ""incident review""]"
+Chat Sentiment Determination,Confidence
+Event ID,145
+Distribution,Organization only
+Event Information,Malware infection detected
+Threat Level,High
+Event Attributes,"{ 'issue_type': 'malware infection', 'affected_systems': 'user workstation' }"
+close_code,Malware_Infection_Resolved
+resolved_by,user_071
+resolved_at,03/03/2016 16:00
+closed_at,08/03/2016 17:00
 
