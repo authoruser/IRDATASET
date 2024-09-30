@@ -222,3 +222,49 @@ resolved_by,user_62
 resolved_at,29/02/2016 15:51
 closed_at,05/03/2016 16:00
 
+Field,Value
+number,INC0000063
+incident_state,Closed
+active,FALSE
+reassignment_count,1
+reopen_count,0
+sys_mod_count,7
+made_sla,TRUE
+caller_id,Caller 2146
+opened_by,user_180
+opened_at,29/02/2016 07:08
+sys_created_by,user_081
+sys_created_at,29/02/2016 07:17
+sys_updated_by,user_908
+sys_updated_at,05/03/2016 17:00
+contact_type,Phone
+category,Security Incident
+subcategory,Data Breach
+u_symptom,User reports unauthorized access to sensitive data
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_23
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001234
+Case ID,CASE008
+Case Title,Unauthorized Access Detected
+Creation Date,29/02/2016 07:08
+Description,User reported potential unauthorized access to sensitive information; urgent investigation required.
+Case Tasks,"[{""Case Tasks Title"": ""Initial Investigation"", ""Case Task Start Date"": ""29/02/2016 07:15"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'investigation_started': 'Analyzing access logs.' }""}, {""Case Tasks Title"": ""Data Protection Measures"", ""Case Task Start Date"": ""29/02/2016 08:00"", ""Case Task Assignee"": ""user_23"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'data_protection_measures': 'Access revoked for affected accounts.' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 09:30"", ""Case Task Assignee"": ""user_180"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""15 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'User informed about the incident.' }""}, {""Case Tasks Title"": ""Incident Report"", ""Case Task Start Date"": ""29/02/2016 10:00"", ""Case Task Assignee"": ""user_23"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'report_summary': 'Unauthorized access detected; actions taken.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""Access Logs"", ""Analysis ID"": ""log-2016-002"", ""Timestamp"": ""2016-02-29 07:30:00 UTC"", ""Data Value"": ""Unauthorized access attempt detected."", ""Details"": ""Multiple failed login attempts from external IPs."", ""Status"": ""Investigating""}]"
+Chat Log,"User_180 [07:08 AM]: ""User reports potential unauthorized access. Investigating now."" User_23 [07:30 AM]: ""Initial investigation indicates multiple failed logins."" User_180 [08:15 AM]: ""Access for affected accounts has been revoked."" User_23 [09:00 AM]: ""User notified; incident report in progress."""
+Chat Keywords,"[""security breach"", ""data breach"", ""unauthorized access"", ""investigation"", ""user notification"", ""incident reporting""]"
+Chat Sentiment Determination,Frustration
+Event ID,135
+Distribution,Organization only
+Event Information,Security breach detected
+Threat Level,High
+Event Attributes,"{ 'issue_type': 'security breach', 'affected_data': 'user credentials, personal information' }"
+close_code,Security_Breach_Resolved
+resolved_by,user_62
+resolved_at,29/02/2016 16:01
+closed_at,05/03/2016 17:00
+
+
