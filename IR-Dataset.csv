@@ -351,7 +351,7 @@ Chat Keywords,"[""network outage"", ""connectivity issues"", ""router reboot"", 
 Chat Sentiment Determination,Urgency
 Event ID,146
 Distribution,Organization only
-Event Information,Network outage reported and resolved
+Event Information,Network outage reported 
 Threat Level,Medium
 Event Attributes,"{ 'issue_type': 'network outage', 'affected_systems': 'all workstations' }"
 close_code,Network_Outage_Resolved
@@ -398,7 +398,7 @@ Chat Keywords,"[""application crash"", ""log analysis"", ""issue resolution"", "
 Chat Sentiment Determination,Optimism
 Event ID,147
 Distribution,Organization only
-Event Information,Application crash reported and resolved
+Event Information,Application crash reported 
 Threat Level,Medium
 Event Attributes,"{ 'issue_type': 'application error', 'affected_systems': 'user application' }"
 close_code,Application_Error_Resolved
@@ -444,7 +444,7 @@ Chat Keywords,"[""unauthorized access"", ""login attempts"", ""user account lock
 Chat Sentiment Determination,Frustration
 Event ID,148
 Distribution,Organization only
-Event Information,Unauthorized access attempt detected and resolved
+Event Information,Unauthorized access attempt detected 
 Threat Level,Medium
 Event Attributes,"{ 'issue_type': 'unauthorized access', 'affected_users': 'user_442' }"
 close_code,Unauthorized_Access_Resolved
@@ -490,7 +490,7 @@ Chat Keywords,"[""malware infection"", ""system scan"", ""user notification"", "
 Chat Sentiment Determination,Urgency
 Event ID,149
 Distribution,Organization only
-Event Information,Malware infection detected and resolved
+Event Information,Malware infection detected
 Threat Level,Medium
 Event Attributes,"{ 'issue_type': 'malware infection', 'affected_users': 'user_3757' }"
 close_code,Malware_Resolved
@@ -536,10 +536,6 @@ Chat Keywords,"[""data breach"", ""unauthorized access"", ""user notification"",
 Chat Sentiment Determination,Frustration
 Event ID,150
 Distribution,Organization only
-Event Information,Data breach incident detected and resolved
+Event Information,Data breach incident detected 
 Threat Level,Medium
-Event Attributes,"{ 'issue_type': 'data breach', 'affected_users': 'user_271' }"
-close_code,Data_Breach_Resolved
-resolved_by,user_227
-resolved_at,01/03/2016 10:38
-closed_at,06/03/2016 11:00
+
