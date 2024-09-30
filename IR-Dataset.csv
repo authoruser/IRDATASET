@@ -117,3 +117,4 @@ rfc,RFC001226
 Case ID,CASE004
 Case Title,DDoS Attack Detected
 Creation Date,29/02/2016 06:10
+Description,Detected unusually high network traffic indicative of a DDoS attack
