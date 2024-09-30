@@ -358,3 +358,49 @@ close_code,Network_Outage_Resolved
 resolved_by,user_197
 resolved_at,02/03/2016 15:21
 closed_at,07/03/2016 16:00
+
+Field,Value
+number,INC0000066
+incident_state,Closed
+active,FALSE
+reassignment_count,1
+reopen_count,0
+sys_mod_count,3
+made_sla,TRUE
+caller_id,Caller 3796
+opened_by,user_024
+opened_at,29/02/2016 08:03
+sys_created_by,user_013
+sys_created_at,29/02/2016 08:18
+sys_updated_by,user_908
+sys_updated_at,07/03/2016 15:00
+contact_type,Phone
+category,Application Support
+subcategory,Application Error
+u_symptom,Application crashes on launch
+impact,2 - Medium
+urgency,2 - Medium
+priority,3 - Moderate
+assigned_to,user_54
+resolver,user_208
+knowledge,FALSE
+notify,Do Not Notify
+rfc,RFC001236
+Case ID,CASE011
+Case Title,Application Crash Reported
+Creation Date,29/02/2016 08:03
+Description,User reported that the application crashes every time it is launched.
+Case Tasks,"[{""Case Tasks Title"": ""Initial Diagnosis"", ""Case Task Start Date"": ""29/02/2016 08:30"", ""Case Task Assignee"": ""user_024"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""30 minutes"", ""Case Attribute Data"": ""{ 'diagnosis_result': 'Application logs analyzed.' }""}, {""Case Tasks Title"": ""Patch Deployment"", ""Case Task Start Date"": ""29/02/2016 09:00"", ""Case Task Assignee"": ""user_208"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""1 hour"", ""Case Attribute Data"": ""{ 'patch_deployed': 'Update applied successfully.' }""}, {""Case Tasks Title"": ""User Notification"", ""Case Task Start Date"": ""29/02/2016 10:15"", ""Case Task Assignee"": ""user_024"", ""Case Task Status"": ""Completed"", ""Case Task Duration"": ""15 minutes"", ""Case Attribute Data"": ""{ 'notification_sent': 'User informed of resolution.' }""}]"
+Observables Analysis,"[{""Analysis Type"": ""Application Log Analysis"", ""Analysis ID"": ""log-2016-006"", ""Timestamp"": ""2016-02-29 08:45:00 UTC"", ""Data Value"": ""Application crash logs indicate missing dependencies."", ""Details"": ""Root cause identified as missing library files."", ""Status"": ""Completed""}]"
+Chat Log,"User_024 [08:03 AM]: ""User reports application crash. We need to prioritize this!"" User_208 [08:30 AM]: ""Looking at the logs now. I’m confident we can resolve this quickly."" User_024 [09:00 AM]: ""Any updates?"" User_208 [09:05 AM]: ""I see the issue; deploying a patch shortly.""
+User_024 [10:00 AM]: ""Great! Keep me posted."" User_208 [10:15 AM]: ""Patch deployed. I’ll notify the user now."" User_024 [10:30 AM]: ""Thanks for the quick turnaround!""" 
+Chat Sentiment Determination,Optimism
+Event ID,147
+Distribution,Organization only
+Event Information,Application crash reported and resolved
+Threat Level,Medium
+Event Attributes,"{ 'issue_type': 'application error', 'affected_systems': 'user application' }"
+close_code,Application_Error_Resolved
+resolved_by,user_208
+resolved_at,02/03/2016 14:37
+closed_at,07/03/2016 15:00
